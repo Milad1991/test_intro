@@ -7,6 +7,8 @@ class UserTest < ActiveSupport::TestCase
     assert_not u.save, "User email should never be nil"
   end
 
+  
+
   # test "the truth" do
   #   one = users(:one)
   #   puts "Hello #{one.name}"
